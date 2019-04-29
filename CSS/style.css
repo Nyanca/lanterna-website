@@ -1,0 +1,92 @@
+html,
+body {
+    height: 100%;
+}
+
+.notice-box {
+    margin: 2vw;
+    padding: 1vw;
+    color: #33FFCC;
+    text-shadow: 0.05vw 0.05vw #3399CC;
+    text-align: center;
+}
+
+/*images & media*/
+
+.spacer-image {
+    background: url(/img/envision_land2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    height: 40vw;
+    margin: 2vw;
+    border-radius: 0.3vw;
+}
+
+/*special styles / paddings / borders*/
+
+.spacer {
+    padding: 3vw;
+}
+
+.p-spacer {
+    padding: 1.5vw;
+}
+
+.padding-caption{
+    padding: 100px;
+}
+
+.padding-left{
+  padding-left: 100px;
+}
+
+.padding-sides{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.padding-sides-light{
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* text styles */
+
+.text-center {
+    text-align: center;
+}
+
+.text-md {
+    font-size: 30px;
+}
+
+.text-lg {
+    font-size: 50px;
+}
+
+.text-xl {
+    font-size: 100px;
+}
+
+.text-white{
+    color: white;
+}
+
+/*-----colours*/
+
+.blue-background {
+    background-image: linear-gradient(to right, #66FF99, #66FFCC);
+    background-size: cover;
+    padding: 5vw;
+}
+
+.form2 {
+    background-color: transparent;
+}
