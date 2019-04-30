@@ -3,6 +3,30 @@ body {
     height: 100%;
 }
 
+/* colours */
+
+.blue-background {
+    background-image: linear-gradient(to right, #AEEAFF, #A8FFFF);
+    background-size: cover;
+    padding: 5vw;
+}
+
+.sand {
+    background-color: #FFCC33;
+}
+
+.aqua {
+    background-color: #00CCCC;
+}
+
+.blue-d {
+    background-color: #00CCFF;
+}
+
+.blue {
+    background-color: #AEEAFF;
+}
+
 .notice-box {
     margin: 2vw;
     padding: 1vw;
@@ -19,6 +43,36 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.holiday-tile {
+    background: url(/media/img/lanterna_holiday.jpeg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 60vh;
+}
+
+.event-tile {
+    background: url(/media/img/lanterna_events.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 60vh;
+}
+
+.commercial-tile {
+    background: url(/media/img/lanterna_commercial.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    height: 60vh;
 }
 
 .spacer-image {
@@ -41,6 +95,14 @@ body {
     padding: 3vw;
 }
 
+.margin-left {
+    margin-left: 20px;
+}
+
+.margin-top {
+    margin-top: 20px;
+}
+
 .p-spacer {
     padding: 1.5vw;
 }
@@ -53,6 +115,10 @@ body {
     padding-left: 100px;
 }
 
+.padding-bottom {
+    padding-bottom: 100px;
+}
+
 .padding-sides {
     padding-left: 100px;
     padding-right: 100px;
@@ -62,7 +128,13 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
+}
+
+.border-b {
+    border-style: solid;
+    border-width: 5px;
+    border-color: aqua;
 }
 
 /* text styles */
@@ -85,14 +157,6 @@ body {
 
 .text-white {
     color: white;
-}
-
-/*-----colours*/
-
-.blue-background {
-    background-image: linear-gradient(to right, #66FF99, #66FFCC);
-    background-size: cover;
-    padding: 5vw;
 }
 
 .form2 {
